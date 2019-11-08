@@ -4,4 +4,78 @@ body {
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+
+background-image: url ("//Users/kathrynyates/Desktop/dublin-skyline-at-dusk-dublin-barry-o-carroll.jpg");
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 3vh;
+  float: left;
+}
+
+li:hover {
+
+  background-color: #e69a29;
+}
+
+
+h1 {
+  font-family: "Arial";
+  color: green;
+  font-size: 50px;
+  text-align: center;
+
+}
+h2{
+  font-family: "Arial";
+  color: #15d656;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.christiana {
+  font-family: "Arial";
+  color: #15d656;
+  font-size: 20px;
+  text-align: left;
+}
+
+.sarah{
+  font-family: "Arial";
+  color: #15d656;
+  font-size: 20px;
+  text-align: center;
+}
+
+.kitty {
+  font-family: "Arial";
+  color: #15d656;
+  font-size: 20px;
+  text-align: right;
