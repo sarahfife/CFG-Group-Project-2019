@@ -1,0 +1,34 @@
+body {   </body> }
+
+.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 3vh;
+  float: left;
+}
+
+li:hover {
+
+  background-color: #e69a29;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Arial";
+  text-align: center;
+  color: orange;
+}
+ p {
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center;
+    color: darkgreen;
+  }
