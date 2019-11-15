@@ -1,34 +1,48 @@
-body {   </body> }
+body {
 
-.nav_bar {
+
+  background-image: url ("Slide1.jpg");
+  background-size: cover;
+}
+
+.tips{
+  font-size: 20px;
+  font-style: italic;
+  float: left;
+}
+
+.nav_bar li{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: darkgreen;
+  float: cover;
 }
-li{
-  list-style-type: none;
+
+.nav_bar li: hover {
+
+  background-color: #e69a29;
+}
+
+.cafes {
+  list-style-type: disc;
   margin: 0 2vw;
   /* our font-size will be 3% of the height of the viewport */
   font-size: 3vh;
   float: left;
 }
 
-li:hover {
-
-  background-color: #e69a29;
-}
-
 h1 {
-  font-size: 40px;
   font-family: "Arial";
+  color: green;
+  font-size: 50px;
   text-align: center;
-  color: orange;
 }
- p {
-    font-family: "Arial";
-    font-size: 20px;
-    text-align: center;
-    color: darkgreen;
-  }
+
+h2 {
+  font-family: "Arial";
+  color: #15d656;
+  font-size: 30px;
+  text-align: center;
+}
