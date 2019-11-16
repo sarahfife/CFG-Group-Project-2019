@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>About Us</title>
-    <link rel = "stylesheet" type = "text/css" href ="css/style.css">
+    <title>About Us</title>
+    <link rel = "stylesheet" type = "text/css" href ="css/styleabout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   </head>
   <body>
-    <h1>About Us</h1>
-    <div class="column">
-         <div class="christiana"></div>
+    <style type="text/css">
+       body { background: darkgreen !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
+    <header class="container">
+      <div class="row">
+        <h1 class="col-sm-4">Dub's Guide</h1>
+        <nav class="col-sm-8 text-right">
+        <p><a class="btn btn-primary" href="index.html" role="button">Home</a></p>
+        <p><a class="btn btn-primary" href="index.html" role="button">Tips</a></p>
+        <p><a class="btn btn-primary" href="index.html" role="button">About us</a></p>
+        </nav>
+      </div>
+    </header>
 
-           <h2>Christiana</h2>
-           <img src="/Users/christianaglynn/Desktop/WORK/Christiana%20Headshot%20copy%20(1).jpg" alt="Image of Christiana" width="300px"</img>
-             <p>Christiana is a 23-year-old student born and raised in the Garden of Ireland (Co. Wicklow)!
-               She is currently in her sixth and last year of university, studying for a MSc in Digital Marketing.
-               She joined Code First Girls because she wanted to try something different and meet some new people.</p>
-         </div>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row text-center">
+        <h2>About us</h2>
+        </div>
+      </div>
+    </section>
 
-         <div class="column">
-         <div class="sarah"></div>
-                     <h2>Sarah</h2>
-                     <p> Sarah is an American, who moved to Dublin in the summer of 2019 to work at EPIC, the Irish Emigration museum.
-                   </div>
+    <section class="container">
+    <div class="row">
+      <figure class="col-sm-4">
+        <h3>Christiana</h3>
+        <img src="/Users/christianaglynn/Desktop/WORK/Christiana%20Headshot%20copy%20(1).jpg" alt="Image of Christiana" width="300px"/>
+        <p>Christiana is a 23-year-old student born and raised in the Garden of Ireland (Co. Wicklow)!
+                 She is currently in her sixth and last year of university, studying for a MSc in Digital Marketing.
+                 She joined Code First Girls because she wanted to try something different and meet some new people.</p>
+      </figure>
 
+      <section class="container">
+      <div class="row">
+        <figure class="col-sm-4">
+          <h3>Sarah</h3>
+          <img src="/Users/christianaglynn/Desktop/CFG-Group-Project-2019-master%202/SARAH%20IMAGE.jpeg" alt="Image of Sarah" width="300px"/>
+          <p>Sarah is an American, who moved to Dublin in the summer of 2019 to work at EPIC, the Irish Emigration museum.</p>
+        </figure>
 
-         <div class="column">
-           <div class="kitty"></div>
-         <h2>Kitty</h2>
-         <p> Kitty moved over from London back in 2017 to start her PhD in Psychiatry. She's still trying to get used to the lack of food markets,
-           but has found some decent cafes and bars that she recommends.  </p>
-       </div>
+        <section class="container">
+        <div class="row">
+          <figure class="col-sm-4">
+            <h3>Kitty</h3>
+            <img src="/Users/christianaglynn/Desktop/CFG-Group-Project-2019-master%202/Kitty%20image.jpg" alt="Image of Kitty" width="300px"/>
+            <p>Kitty moved over from London back in 2017 to start her PhD in Psychiatry. She's still trying to get used to the lack of food markets,
+               but has found some decent cafes and bars that she recommends.</p>
+          </figure>
 
-
-
+        <footer class="container">
+        <div class="row">
+          <p class="col-sm-4">&copy; 2019 Dub's Guide</p>
+          <ul class="col-sm-8">
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+              </li>
+            <li class="col-sm-1"> <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+              </li>
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+              </li>
+            <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+              </li>
+          </ul>
+        </footer>
 
 
      </body>
