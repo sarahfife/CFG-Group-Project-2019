@@ -1,8 +1,7 @@
 body {
-
-
   background-image: url ("Slide1.jpg");
-  background-size: cover;
+
+  background-size: stretch;
 }
 
 .tips{
