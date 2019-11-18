@@ -1,7 +1,5 @@
 body {
-  background-image: url ("Slide1.jpg");
-
-  background-size: stretch;
+  background-color: darkgreen;
 }
 
 .tips{
@@ -10,31 +8,31 @@ body {
   float: left;
 }
 
-.nav_bar li{
+.nav_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: darkgreen;
-  float: cover;
+  color: white;
 }
-
-.nav_bar li: hover {
-
-  background-color: #e69a29;
-}
-
-.cafes {
-  list-style-type: disc;
+li{
+  list-style-type: none;
   margin: 0 2vw;
   /* our font-size will be 3% of the height of the viewport */
   font-size: 3vh;
   float: left;
+  color: white;
+}
+
+li:hover {
+
+  background-color: #e69a29;
 }
 
 h1 {
   font-family: "Arial";
-  color: green;
+  color: orange;
   font-size: 50px;
   text-align: center;
 }
@@ -44,4 +42,34 @@ h2 {
   color: #15d656;
   font-size: 30px;
   text-align: center;
+}
+
+.carousel_image {
+  width: 100%;
+  height: 500px;
+}
+
+p {
+  color: white;
+  font-family: Arial;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.list {
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+form {
+  color: orange;
+  font-family: Arial;
+  font-size: 25px;
+  text-align: center;
+}
+
+.form {
+  align-items: center;
+  align-content: center;
 }
